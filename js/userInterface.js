@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('.wineCardClickable1').click(function(){ 
+	  $('.wineCardToggleable1').slideToggle();
+	})
+	$('.wineCardClickable2').click(function(){ 
+	  $('.wineCardToggleable2').slideToggle();
+	})
+	$('.wineCardClickable3').click(function(){ 
+	  $('.wineCardToggleable3').slideToggle();
+	})
+})
