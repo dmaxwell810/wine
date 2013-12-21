@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 	<html>
-		<head><title>DUWC Encyclopedia</title></head>
+		<head><title>DUWC Encyclopedia</title>
+
+		<style type="text/css">
+			.wineCard {
+				border: 1px solid black;
+				width: 50%;
+				font-size: 12px;
+				list-style: none;
+				padding: 20px;
+				border-radius: 20px;
+				margin-bottom: 20px;
+			}
+
+		</style>
+
+
+
+		</head>
 			<body>
 				<h2>Welcome to the Dallas Underground Wine Club Encyclopedia of Fine Wines</h2>
 					<p>Here you'll find our glossary of wine varieties, sub varieties, regions, and the club's historic highlights.  Your education on these subjects is <strong>paramount to enjoyment!</strong> <a href="http://www.winetasting.com/Wine-101">Read Wine Tasting 101</a> </p>
@@ -8,8 +25,12 @@
 				<h3>Varietal Wines</h3>
 					<p>A Varietal describes a wine made primarily from a single named grape variety, and which typically displays the name of that variety on the wine label.  Examples of grape varieties commonly used in varietal wines are Cabernet Sauvignon, Chardonnay and Merlot. <a href="http://en.wikipedia.org/wiki/Varietal">Read More</a> </p>
 						<ol>
-							<li><strong>Chardonnay</strong></li>
-								<p>"Due to the "malleability" of Chardonnay in winemaking and its ability to reflect its terroir, there is not one distinct universal "style" or set of constants that could be applied to Chardonnay made across the globe." <a href="http://en.wikipedia.org/wiki/Chardonnay">More</a> </p>
+							<li class="wineCard">
+								<div class="wineCardClickable">
+									<strong>Chardonnay</strong>
+									<p>"Due to the "malleability" of Chardonnay in winemaking and its ability to reflect its terroir, there is not one distinct universal "style" or set of constants that could be applied to Chardonnay made across the globe." <a href="http://en.wikipedia.org/wiki/Chardonnay">More</a> </p>
+								</div>
+								<div class="wineCardToggleable">
 									<p>Featured Region: Burgundy <a href="http://www.totalwine.com/eng/guide-to-wine/chardonnay.cfm">More</a>:</p>
 									<p>And Sub-Regions:</p>
 									<ul>
@@ -26,8 +47,11 @@
 											<p>(The northern-most sub-region)
 											<p>Known For: "crisp acidity, unaltered fruit flavors and flinty notes. Chablis is excellent with shellfish, especially oysters!""
 									</ul>
+									</div>
+							</li>
+
 							
-							<li><p><strong>Merlot</strong></p></ul>
+							<li class="wineCard"><p><strong>Merlot</strong></p></ul>
 								<p>"Merlot is a dark blue-coloured wine grape variety, that is used as both a blending grape and for varietal wines. The name Merlot is thought to be a diminutive of merle, the French name for the blackbird, probably a reference to the color of the grape." <a href="http://en.wikipedia.org/wiki/Merlot">More</a> </p>	
 									<ul>
 									<p>Featured Region:	California <a href="http://en.wikipedia.org/wiki/Merlot#United_States">More</a>:</p>
@@ -38,18 +62,19 @@
 											<p>(Consisting of Alexander Valley, Carneros and Dry Creek Valley)</p>
 											<p>Known For: "plum, tea leaf and black cherry notes."</p>
 									</ul>
+							</li>
 
-							<li><p><strong>Cabernet Sauvignon</strong></p></ul>
+							<li class="wineCard"><p><strong>Cabernet Sauvignon</strong></p></ul>
 								<p>"Cabernet Sauvignon is one of the world's most widely recognized red wine grape varieties. It is grown in nearly every major wine producing country among a diverse spectrum of climates from Canada's Okanagan Valley to Lebanon's Beqaa Valley." <a href="http://en.wikipedia.org/wiki/Cabernet_Sauvignon">More</a> </p>	
 									<ul>
 									<p>Featured Region: Bordeaux <a href="http://wine.about.com/od/winearoundtheworld/a/Frenchwinereg.htm">More</a></p>
 										<li>Left Bank</li>
 											<p>Known For: "soils with higher gravel content that favor Cabernet Sauvignon grapes. French wines from the left bank usually require more time to mature and will age for years."</p>
 										<li>Right Bank</li>
-											<p>Known For: "soil with more clay ... typically better suited for beginning Bordeaux wine drinkers, as they have lower tannin content, more fruit-forward flavor and are more inviting initially. "
+											<p>Known For: "soil with more clay ... typically better suited for beginning Bordeaux wine drinkers, as they have lower tannin content, more fruit-forward flavor and are more inviting initially. "</p>
 									</ul>
-								
-							<li></li>
+								</li>
+							
 							
 						</ol>
 
@@ -58,6 +83,7 @@
 						<p><a href="http://www.totalwine.com">Total Wine</a></p>
 						<p><a href="http://wine.about.com">About.com (Wine)</a></p>
 
-			</body>
+						<script type="text/javascript" src=""></script>
 
+			</body>
 </html>
