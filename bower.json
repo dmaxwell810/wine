@@ -1,0 +1,22 @@
+{
+  "name": "wine",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DMaxwell810/wine",
+  "authors": [
+    "DMaxwell810 <dfieldingmaxwell@gmail.com>"
+  ],
+  "description": "A wine app",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}
